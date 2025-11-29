@@ -74,6 +74,23 @@ PayMitra
 
 <br>
 
+<table>
+  <tr>
+    <td align="center" width="600">
+      <img src="https://github.com/Yash-Bandal/PayMitra-Finance/blob/34429550935a874f988a8fdb3045dfac52eab2e6/client/src/assets/icons/dashboard%20(2).png" width="300"/>
+      <br>
+      <b>Main Dashboard</b>
+    </td>
+    <td align="center" width="600">
+      <img src="https://github.com/Yash-Bandal/PayMitra-Finance/blob/34429550935a874f988a8fdb3045dfac52eab2e6/client/src/assets/icons/feature.png" width="300"/>
+      <br>
+      <b>Spending Analysis</b>
+    </td>
+  </tr>
+</table>
+
+<br>
+
 ## 2. Getting Started
 ### 2.1 Backend Setup
 
