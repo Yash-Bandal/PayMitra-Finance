@@ -15,8 +15,8 @@ from pymongo import MongoClient
 # ---------------------------------------------------------------------
 # CONFIG
 # ---------------------------------------------------------------------
-# API_KEY = "AIzaSyAd9j-JkYzwEiMM5q7LgP9L5FDaPqCYcs8"   # <<< PUT YOUR KEY HERE
-API_KEY = "AIzaSyAd9j-JkYzwEiMM5q7LgP9L5FDaPqCYcs8"   # <<< PUT YOUR KEY HERE
+
+API_KEY = "YOUR_API_KEY"   # <<< PUT YOUR KEY HERE
 
 GEN_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
 
@@ -868,3 +868,4 @@ def loan_advisor_ai():
 
 if __name__ == "__main__":
     app.run(port=5000, debug=True)
+
