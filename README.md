@@ -82,9 +82,9 @@ PayMitra
       <b>Main Dashboard</b>
     </td>
     <td align="center" width="600">
-      <img src="https://github.com/Yash-Bandal/PayMitra-Finance/blob/34429550935a874f988a8fdb3045dfac52eab2e6/client/src/assets/icons/feature.png" width="300"/>
+      <img src="https://github.com/Yash-Bandal/PayMitra-Finance/blob/300749756e82ec090b424b3f9876afe875726bfd/client/src/assets/icons/mvp.png" width="300"/>
       <br>
-      <b>Spending Analysis</b>
+      <b>Load Planner</b>
     </td>
   </tr>
 </table>
