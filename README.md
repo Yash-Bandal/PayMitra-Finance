@@ -1,0 +1,204 @@
+<img width="619" height="102" alt="image" src="https://github.com/user-attachments/assets/d8dd825a-846a-48c1-98e8-1c4e17b32e59" />
+
+# PayMitra – Finance
+PayMitra is a full-stack finance intelligence platform that analyzes user spending patterns and provides user with personalized financial insights, spending analytics, and loan optimization.
+
+## 1. Project Structure
+```
+PayMitra
+│
+├── backend/
+│   │   app.py
+│   │   cards.json
+│   │   requirements.txt
+│   │
+│   ├── templates/
+│   │   └── index.html
+│   │
+│   └── uploads/
+│       ├── bank statement.pdf
+│       └── Statements.pdf
+│
+└── client/
+    │   eslint.config.js
+    │   index.html
+    │   package-lock.json
+    │   package.json
+    │   postcss.config.js
+    │   tailwind.config.js
+    │   vite.config.js
+    │
+    ├── public/
+    │   ├── DarkMode.png
+    │   ├── LightMode.png
+    │   └── vite.svg
+    │
+    └── src/
+        │   App.jsx
+        │   main.jsx
+        │   App.css
+        │   index.css
+        │
+        ├── assets/
+        │   └── icons/
+        │       (multiple icons and images)
+        │
+        ├── components/
+        │   ├── Card.jsx
+        │   ├── Dropdown.jsx
+        │   ├── Upload/
+        │   ├── charts/
+        │   ├── layout/
+        │   └── form/
+        │
+        ├── hooks/
+        │   └── useTheme.js
+        │
+        ├── loaders/
+        │   └── animations
+        │
+        ├── LoanPlanner/
+        │   └── EMI planning components
+        │
+        ├── pages/
+        │   ├── Dashboard
+        │   ├── UploadPage
+        │   ├── Analytics
+        │   ├── AIAdvisor
+        │   ├── Compare
+        │   └── Settings
+        │
+        └── store/
+            └── useAnalysisStore.js
+```
+
+<br>
+
+## 2. Getting Started
+### 2.1 Backend Setup
+
+1. Navigate to backend directory:
+```
+cd backend
+```
+
+2. Create and activate virtual environment:
+```
+python -m venv myenv
+myenv\Scripts\activate   
+source myenv/bin/activate 
+```
+3. Install dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+
+4. Start backend server:
+```
+python app.py
+```
+
+The server should run at:
+```
+http://127.0.0.1:5000/
+```
+
+Update endpoints in frontend if different.
+
+<br>
+
+### 2.2 Frontend Setup
+1. Navigate to client folder:
+```
+cd client
+```
+
+2. Install dependencies:
+```
+npm install
+```
+
+3. Start frontend:
+```
+npm run dev
+```
+
+4. Open browser:
+```
+http://localhost:5173
+```
+
+<br>
+
+## 3. Features
+### 3.1 PDF Analysis
+* AI-powered extraction of transactions from bank statements (text and image mode)
+* Cleans sensitive data before processing
+* Summaries generated for:
+  * Total credit
+  * Total debit
+  * Net balance
+  * Category-wise spending
+  * Monthly spending patterns
+
+### 3.2 Dashboard Analytics
+* Charts for weekly, monthly, and category spending
+* Smart visualizations built using custom React chart components
+  
+### 3.3 Loan Advisor
+* AI-driven EMI calculation and optimization
+* Suggests best credit card + investment + loan combinations
+* Displays normal vs optimized purchase cost comparison
+
+### 3.4 Smart Recommendations
+* Automatically recommends:
+  * Best credit cards based on spending categories
+  * Financial offers
+  * Savings and optimization strategies
+
+### 3.5 Modern UI
+* Built with React, Tailwind CSS, Vite
+* Dark mode support
+* Clean component structure and reusable modules
+
+<br>
+
+## 4. API Endpoints Overview
+### POST /upload_pdf
+
+Upload and store bank statement.
+
+### POST /process_pdf
+Extract transactions + generate summary + save in MongoDB.
+
+### GET /latest_analysis
+Fetch latest stored analysis.
+
+### POST /bestsplit
+Loan optimization engine.
+
+### POST /loan_advisor_ai
+AI-powered savings advisor.
+
+<br>
+
+## 5. Technologies Used
+**Backend:** Flask, MongoDB, PyMuPDF, pdfplumber, pandas, Google Gemini API
+**Frontend:** React, Tailwind, Zustand, Vite
+**Tools:** Axios, Lucide Icons, Custom Hooks, React Hook Form
+
+<br>
+
+## 6. License
+
+MIT License
+
+<br>
+
+
+
+
+
+
