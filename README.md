@@ -149,68 +149,24 @@ http://localhost:5173
 
 <br>
 
-## 3. Features
-### 3.1 PDF Analysis
-* AI-powered extraction of transactions from bank statements (text and image mode)
-* Cleans sensitive data before processing
-* Summaries generated for:
-  * Total credit
-  * Total debit
-  * Net balance
-  * Category-wise spending
-  * Monthly spending patterns
-
-### 3.2 Dashboard Analytics
-* Charts for weekly, monthly, and category spending
-* Smart visualizations built using custom React chart components
-  
-### 3.3 Loan Advisor
-* AI-driven EMI calculation and optimization
-* Suggests best credit card + investment + loan combinations
-* Displays normal vs optimized purchase cost comparison
-
-### 3.4 Smart Recommendations
-* Automatically recommends:
-  * Best credit cards based on spending categories
-  * Financial offers
-  * Savings and optimization strategies
-
-### 3.5 Modern UI
-* Built with React, Tailwind CSS, Vite
-* Dark mode support
-* Clean component structure and reusable modules
+## 3 Feaatures
+- AI-based bank statement PDF analysis
+- Automatic transaction extraction (date, amount, category, method)
+- Sensitive data masking 
+- Spending summary: total credit, total debit, net balance
+- Category-wise spending analysis
 
 <br>
 
-## 4. API Endpoints Overview
-### POST /upload_pdf
-
-Upload and store bank statement.
-
-### POST /process_pdf
-Extract transactions + generate summary + save in MongoDB.
-
-### GET /latest_analysis
-Fetch latest stored analysis.
-
-### POST /bestsplit
-Loan optimization engine.
-
-### POST /loan_advisor_ai
-AI-powered savings advisor.
-
-<br>
-
-## 5. Technologies Used
-**Backend:** Flask, MongoDB, PyMuPDF, pdfplumber, pandas, Google Gemini API
-**Frontend:** React, Tailwind, Zustand, Vite
+## 4 Technologies Used
+**Backend:** Flask, MongoDB, PyMuPDF, pdfplumber, pandas, Google Gemini API\
+**Frontend:** React, Tailwind, Zustand, Vite\
 **Tools:** Axios, Lucide Icons, Custom Hooks, React Hook Form
 
 <br>
 
-## 6. License
-
-MIT License
+## 5 License
+[MIT License](https://github.com/Yash-Bandal/PayMitra-Finance/blob/02c8d07f2b3b4183378f2c62ef532056cbd21d85/LICENSE)
 
 <br>
 
