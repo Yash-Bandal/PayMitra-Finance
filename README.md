@@ -1,4 +1,4 @@
-<img width="619" height="102" alt="image" src="https://github.com/user-attachments/assets/d8dd825a-846a-48c1-98e8-1c4e17b32e59" />
+<img width="620" height="102" alt="image" src="https://github.com/user-attachments/assets/d8dd825a-846a-48c1-98e8-1c4e17b32e59" />
 
 # PayMitra – Finance
 PayMitra is a full-stack finance intelligence platform that analyzes user spending patterns and provides user with personalized financial insights, spending analytics, and loan optimization.
