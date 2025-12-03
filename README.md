@@ -149,7 +149,7 @@ http://localhost:5173
 
 <br>
 
-## 3 Feaatures
+## 3. Feaatures
 - AI-based bank statement PDF analysis
 - Automatic transaction extraction (date, amount, category, method)
 - Sensitive data masking 
@@ -158,14 +158,14 @@ http://localhost:5173
 
 <br>
 
-## 4 Technologies Used
+## 4. Technologies Used
 **Backend:** Flask, MongoDB, PyMuPDF, pdfplumber, pandas, Google Gemini API\
 **Frontend:** React, Tailwind, Zustand, Vite\
 **Tools:** Axios, Lucide Icons, Custom Hooks, React Hook Form
 
 <br>
 
-## 5 License
+## 5. License
 [MIT License](https://github.com/Yash-Bandal/PayMitra-Finance/blob/02c8d07f2b3b4183378f2c62ef532056cbd21d85/LICENSE)
 
 <br>
