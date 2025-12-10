@@ -30,6 +30,15 @@ import UPform from "./pages/UPForm"
 
 
 const App = () => {
+    //page whiiteout to prevent flashing
+  const [whiteOut, setWhiteOut] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setWhiteOut(false), 400);
+    return () => clearTimeout(timer);
+  }, []);
+  //========================
+  
   const [phase, setPhase] = useState(0);
   const isDesktop =
     typeof window !== "undefined" ? window.innerWidth >= 1024 : true;
@@ -47,6 +56,11 @@ const App = () => {
 
   return (
     <Router>
+    whiteOut && (
+          <div className="fixed inset-0 bg-white z-[9999]"></div>
+        )}
+
+      
       <Routes>
 
           <Route path="/" element={<Home />} />
@@ -80,3 +94,4 @@ const App = () => {
 };
 
 export default App;
+
