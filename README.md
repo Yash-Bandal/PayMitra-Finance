@@ -104,7 +104,7 @@ cd backend
 ```
 python -m venv myenv
 myenv\Scripts\activate   
-source myenv/bin/activate 
+source myenv/bin/activate
 ```
 3. Install dependencies:
 
@@ -120,7 +120,7 @@ python app.py
 
 The server should run at:
 ```
-http://127.0.0.1:5000/
+http://127.0.0.1:5000
 ```
 
 Update endpoints in frontend if different.
